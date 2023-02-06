@@ -1,0 +1,1 @@
+# Ansible VPS for Wordpress
