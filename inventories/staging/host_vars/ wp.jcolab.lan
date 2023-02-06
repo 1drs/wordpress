@@ -1,0 +1,4 @@
+hostname: wp.jcolab.lan
+ansible_host: 172.31.28.106
+ansible_port: 65401
+ansible_user: root
