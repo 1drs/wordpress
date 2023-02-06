@@ -1,0 +1,8 @@
+- name: Production - Wordpress setup
+  hosts: production
+  gather_facts: yes
+  roles:
+    - init
+    - php
+    - db
+    - web

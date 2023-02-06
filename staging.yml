@@ -1,0 +1,8 @@
+- name: Staging - Wordpress setup
+  hosts: staging
+  gather_facts: yes
+  roles:
+    - init
+    - php
+    - db
+    - web
